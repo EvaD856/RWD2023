@@ -52,7 +52,7 @@ main {
 section {
 	background-color:#183440;
 	color:#fff;
-	top-margin:4%;
+	margin-top:4%;
 	padding:3%;
 }
 
@@ -62,7 +62,7 @@ article {
 }
 
 aside {
-	background-color:rgb a(24, 52, 64, 0.3);
+	background-color:rgba(24, 52, 64, 0.3);
 	padding:2%;
 	top-margin:1%;
 	color:#183440;
@@ -97,7 +97,7 @@ footer {
 	}
 	
 	aside{
-		grid-column: auto 1 / span 5;
+		grid-column: 1 / span 4;
 	}
     
 }
